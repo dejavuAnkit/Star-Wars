@@ -1,0 +1,33 @@
+@keyframes slidein{
+    0%{
+        transform: translateX(250px);
+    }
+50%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(250px);
+    }
+}
+
+.dialog{
+    position: absolute;
+    top: 40px;
+    min-width: 250px;
+    max-width: 250px;
+    transform: translateX(250px);
+    right: 0px;
+    background: #ffb0b0;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    line-height: 40px;
+    border: 2px solid #f54343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    animation: slidein 2s linear;
+}

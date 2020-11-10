@@ -1,0 +1,15 @@
+.login_wrapper{
+    border: 1px solid #fbfb05;
+    border-radius: 5px;
+}
+
+.login_body{
+    padding: 20px;
+}
+
+.login_header{
+    padding: 20px;
+    background: #fbfb05;
+    font-weight: 700;
+    font-size: 20px;
+}
